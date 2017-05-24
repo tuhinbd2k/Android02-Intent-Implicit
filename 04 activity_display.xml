@@ -9,7 +9,7 @@
     android:weightSum="100"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.tuhin.android02_newactivitysenddata.DisplayActivity">
+    tools:context="com.example.tuhin.android02_intentimplicit.DisplayActivity">
 
     <LinearLayout
         android:id="@+id/layOutHeader"
@@ -28,7 +28,7 @@
 
         <TextView
             android:id="@+id/lblSubHeader"
-            android:text="Open New Activity with Data"
+            android:text="Implicit Intent"
             android:textSize="18sp"
             android:gravity="center"
             android:layout_width="match_parent"
