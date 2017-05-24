@@ -1,4 +1,4 @@
-package com.example.tuhin.android02_newactivitysenddata;
+package com.example.tuhin.android02_intentimplicit;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
