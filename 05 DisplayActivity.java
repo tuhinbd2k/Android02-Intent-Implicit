@@ -1,10 +1,9 @@
-package com.example.tuhin.android02_newactivitysenddata;
+package com.example.tuhin.android02_intentimplicit;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
 
 // Variable declaration for EditText and Button
@@ -26,11 +25,11 @@ public class DisplayActivity extends AppCompatActivity {
 
         // Initialization of variables
         tvName   = (TextView) findViewById(R.id.lblName);
-        tvHeight = (TextView) findViewById(R.id.lblHeader);
+        tvHeight = (TextView) findViewById(R.id.lblHeight);
         tvWeight = (TextView) findViewById(R.id.lblWeight);
         btnClose = (Button) findViewById(R.id.buttonClose);
 
-        // Recieved intent data
+        // Receiving intent data
         String rName, rHeight, rWeight;
         rName   = "Name: " + getIntent().getStringExtra("nameKey");
         rHeight = "Height: " + getIntent().getStringExtra("heightKey");
